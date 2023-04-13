@@ -1,0 +1,40 @@
+ol li {
+  /* color: red; */
+  /* width: 470px; */
+  /* border: 1px solid black; */
+}
+
+body {
+  width: 500px;
+}
+
+h1 {
+  font-size: 18px;      /* 書体の大きさを指定します */
+  text-align: center;   /* 文字は中央揃えにします */
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;       /* 行の高さを 2 行分にします */
+  letter-spacing: 1px;  /* 文字の間隔を 1px 空けます */
+}
+
+#html {
+  background: orange;   /* 背景色を指定します */
+}
+
+#css {
+  background: cyan;
+}
+
+#javascript {
+  background: yellow;
+}
+
+.hardware {
+  border-bottom: 3px solid lime;      /* 下に枠線を引きます */
+}
+
+.software {
+  border-bottom: 3px double magenta;  /* 下に枠線を二重線で引きます */
+}

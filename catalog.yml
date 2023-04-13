@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+
+##
+## 注：タブ文字を使わないこと（使うとエラーになる）
+##
+
+## まえがき
+PREDEF:
+  - 00-preface.re
+
+## 本文
+CHAPS:
+  - 計算機の歴史と仕組み:
+    - 01-life.re
+    - 02-history.re
+    - 03-person.re
+    - 04-computers-work.re
+    - 05-binary.re
+    - 06-algorithm.re
+    - 07-programming.re
+    - 08-web.re
+    - 11-env.re
+    - 12-first-html.re
+  - じゃんけんゲームを創ろう:
+    - 21-first-html.re
+    # - 22-first-js.re
+    - 23-basic-css.re
+    - 24-first-css.re
+    # - 25-janken.re
+    # - 26-pwa.re
+    - 27-netlify.re
+
+## 付録
+APPENDIX:
+  - 91-books.re
+  - 92-links.re
+  - 93-cheats.re
+
+## あとがき
+POSTDEF:
+  - 99-postface.re
+
+##
+## 【Tips】
+##
+## ・付録やまえがきやあとがきがなければ、空にする。
+##   例：
+##
+##     PREDEF:
+##
+##     CHAPS:
+##       - 01-install.re
+##
+##     APPENDIX:
+##
+##     POSTDEF:
+##
+##
+## ・第I部、第II部、…のように「部」を使うには、次のようにする。
+##   （部タイトルの最後に半角の「:」をつけることに注意）
+##
+##     CHAPS:
+##       - 初級編:
+##           - 01-install.re
+##           - 02-tutorial.re
+##       - 中級編:
+##           - 03-syntax.re
+##           - 04-customize.re
+##       - 上級編:
+##           - 05-faq.re
+##           - 06-bestpractice.re
+##
